@@ -2,12 +2,11 @@ Wordle Solver Testbench
 =======================
 
 This test bench measures the performance of a solver for the Wordle puzzle game. It can also aid in debugging and optimizing solvers, by showing how it approaches solving a particular word.  
-For every word in an input list, it runs the solver one or more times.
-The solver is a command-line program which prints a suggested next word based on information obtained from prior invocations, which is supplied as arguments.
-The test bench records a score for each word, corresponding to how many times the solver is run before generating the correct answer.
-Words which do not lead to a successful outcome within 6 rounds are marked as failures.
-At the end, the test bench prints the solver's average score, failure count and a number of other statistics.
 
+For every word in an input list, it runs the solver one or more times. The solver is a command-line program which prints a suggested next word based on information obtained from prior invocations, which is supplied as arguments. The test bench records a score for each word, corresponding to how many times the solver is run before generating the correct answer. Words which do not lead to a successful outcome within 6 rounds are marked as failures. At the end, the test bench prints the solver's average score, failure count and a number of other statistics.
+
+![details view](https://shmookey.github.io/wordle-solver-test/details-mode.png)
+![summary view](https://shmookey.github.io/wordle-solver-test/summary-mode.png)
 
 ### Synopsis
 
