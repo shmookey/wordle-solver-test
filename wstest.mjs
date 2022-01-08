@@ -114,7 +114,7 @@ async function testWord(word) {
         buf += sprintC(c1, 30, 42)
       } else if(word.includes(c1)) {
         mConstraints[i].push(c1)
-        buf += sprintC(c1, 94, 103)
+        buf += sprintC(c1, 30, 103)
       } else {
         nConstraints.push(c1)
         buf += sprintC(c1, 37, 40)
