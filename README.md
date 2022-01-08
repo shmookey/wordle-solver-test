@@ -53,7 +53,7 @@ $ solve ..a.e -,l,-,-,- trsbd
 whale
 ```
 
-If a solver uses a word list file, the environment variable `WORDLE_LIST` should contain the word list it uses. Ideally, the solver should use this variable to determine which file to load, so that it always loads the same word list as the test bench. Otherwise, the test bench may use words that the solver will never even try. A solver's performance is demonstrated most clearly when the set of words it could solve exactly matches the set of words it will be tested on. It's average score then represents the overall speed with which it solves words in that set.
+If a solver uses a word list file, the environment variable `WORDLE_LIST` should contain the word list it uses. Ideally, the solver should use this variable to determine which file to load, so that it always loads the same word list as the test bench. Otherwise, the test bench may use words that the solver will never even try. A solver's performance is demonstrated most clearly when the set of words it could solve exactly matches the set of words it will be tested on. Its average score then represents the overall speed with which it solves words in that set.
 
 
 ### Installing
